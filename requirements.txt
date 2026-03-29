@@ -20,3 +20,9 @@ pywin32==306
 
 # Utilities
 pocketsphinx==5.0.1
+
+streamlit
+flask
+flask-cors
+python-dotenv
+SpeechRecognition
