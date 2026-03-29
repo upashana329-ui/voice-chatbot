@@ -1,0 +1,583 @@
+2026-03-16 21:50:36,461 - comtypes.client._code_cache - INFO - Could not import comtypes.gen, trying to create it.
+2026-03-16 21:50:36,462 - comtypes.client._code_cache - INFO - Created comtypes.gen directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 21:50:36,462 - comtypes.client._code_cache - INFO - Writing __init__.py file: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen\__init__.py'
+2026-03-16 21:50:36,475 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 21:50:36,573 - comtypes.client._generate - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-03-16 21:50:36,578 - comtypes.client._generate - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-03-16 21:50:36,656 - comtypes.client._generate - INFO - # Generating comtypes.gen.SpeechLib
+2026-03-16 21:50:36,662 - comtypes.client._generate - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-03-16 21:50:36,663 - comtypes.client._generate - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-03-16 21:50:36,669 - comtypes.client._generate - INFO - # Generating comtypes.gen.stdole
+2026-03-16 21:50:37,314 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-16 21:50:37,315 - __main__ - INFO - Gemini AI initialized
+2026-03-16 21:50:37,515 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.14:5000
+2026-03-16 21:50:37,515 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-16 21:50:37,517 - werkzeug - INFO -  * Restarting with stat
+2026-03-16 21:50:38,678 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-16 21:50:38,679 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 21:50:38,843 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-16 21:50:38,844 - __main__ - INFO - Gemini AI initialized
+2026-03-16 21:50:38,863 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 21:50:38,871 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-16 21:51:16,194 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:16] "GET / HTTP/1.1" 200 -
+2026-03-16 21:51:16,711 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:16] "GET /static/style.css HTTP/1.1" 200 -
+2026-03-16 21:51:17,095 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:17] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-16 21:51:17,418 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:17] "GET /api/status HTTP/1.1" 200 -
+2026-03-16 21:51:17,421 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:17] "GET /api/history HTTP/1.1" 200 -
+2026-03-16 21:51:17,464 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-16 21:51:28,789 - __main__ - ERROR - Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-16 21:51:28,789 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:28] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 21:51:29,104 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:29] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 21:51:29,107 - __main__ - ERROR - Online TTS error: [Errno 13] Permission denied: 'C:\\Users\\Suyal\\AppData\\Local\\Temp\\tmpr6hyq6pt.mp3'
+2026-03-16 21:51:39,439 - __main__ - ERROR - Gemini error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-03-16 21:51:39,440 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:39] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 21:51:39,748 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 21:51:39] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 21:51:39,749 - __main__ - ERROR - Online TTS error: [Errno 13] Permission denied: 'C:\\Users\\Suyal\\AppData\\Local\\Temp\\tmpfrk4bdpj.mp3'
+2026-03-16 21:58:38,470 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Suyal\\OneDrive\\Desktop\\voice_chatbot\\app.py', reloading
+2026-03-16 21:58:40,994 - werkzeug - INFO -  * Restarting with stat
+2026-03-16 21:58:42,466 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-16 21:58:42,467 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 21:58:45,320 - __main__ - INFO -    - models/gemini-2.5-flash
+2026-03-16 21:58:45,320 - __main__ - INFO -    - models/gemini-2.5-pro
+2026-03-16 21:58:45,320 - __main__ - INFO -    - models/gemini-2.0-flash
+2026-03-16 21:58:45,320 - __main__ - INFO -    - models/gemini-2.0-flash-001
+2026-03-16 21:58:45,321 - __main__ - INFO -    - models/gemini-2.0-flash-lite-001
+2026-03-16 21:58:45,321 - __main__ - INFO -    - models/gemini-2.0-flash-lite
+2026-03-16 21:58:45,321 - __main__ - INFO -    - models/gemini-2.5-flash-preview-tts
+2026-03-16 21:58:45,321 - __main__ - INFO -    - models/gemini-2.5-pro-preview-tts
+2026-03-16 21:58:45,321 - __main__ - INFO -    - models/gemma-3-1b-it
+2026-03-16 21:58:45,321 - __main__ - INFO -    - models/gemma-3-4b-it
+2026-03-16 21:58:45,321 - __main__ - INFO -    - models/gemma-3-12b-it
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemma-3-27b-it
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemma-3n-e4b-it
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemma-3n-e2b-it
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemini-flash-latest
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemini-flash-lite-latest
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemini-pro-latest
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemini-2.5-flash-lite
+2026-03-16 21:58:45,322 - __main__ - INFO -    - models/gemini-2.5-flash-image
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/gemini-2.5-flash-lite-preview-09-2025
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/gemini-3-pro-preview
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/gemini-3-flash-preview
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/gemini-3.1-pro-preview
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/gemini-3.1-pro-preview-customtools
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/gemini-3.1-flash-lite-preview
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/gemini-3-pro-image-preview
+2026-03-16 21:58:45,323 - __main__ - INFO -    - models/nano-banana-pro-preview
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/gemini-3.1-flash-image-preview
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/gemini-robotics-er-1.5-preview
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/gemini-2.5-computer-use-preview-10-2025
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/deep-research-pro-preview-12-2025
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/gemini-embedding-001
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/gemini-embedding-2-preview
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/aqa
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/imagen-4.0-generate-001
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/imagen-4.0-ultra-generate-001
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/imagen-4.0-fast-generate-001
+2026-03-16 21:58:45,325 - __main__ - INFO -    - models/veo-2.0-generate-001
+2026-03-16 21:58:45,326 - __main__ - INFO -    - models/veo-3.0-generate-001
+2026-03-16 21:58:45,326 - __main__ - INFO -    - models/veo-3.0-fast-generate-001
+2026-03-16 21:58:45,326 - __main__ - INFO -    - models/veo-3.1-generate-preview
+2026-03-16 21:58:45,326 - __main__ - INFO -    - models/veo-3.1-fast-generate-preview
+2026-03-16 21:58:45,326 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-latest
+2026-03-16 21:58:45,326 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-preview-09-2025
+2026-03-16 21:58:45,326 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-preview-12-2025
+2026-03-16 21:58:45,355 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 21:58:45,371 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-16 22:09:15,132 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-16 22:09:15,133 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 22:09:19,058 - __main__ - INFO -    - models/gemini-2.5-flash
+2026-03-16 22:09:19,058 - __main__ - INFO -    - models/gemini-2.5-pro
+2026-03-16 22:09:19,058 - __main__ - INFO -    - models/gemini-2.0-flash
+2026-03-16 22:09:19,059 - __main__ - INFO -    - models/gemini-2.0-flash-001
+2026-03-16 22:09:19,059 - __main__ - INFO -    - models/gemini-2.0-flash-lite-001
+2026-03-16 22:09:19,059 - __main__ - INFO -    - models/gemini-2.0-flash-lite
+2026-03-16 22:09:19,059 - __main__ - INFO -    - models/gemini-2.5-flash-preview-tts
+2026-03-16 22:09:19,060 - __main__ - INFO -    - models/gemini-2.5-pro-preview-tts
+2026-03-16 22:09:19,060 - __main__ - INFO -    - models/gemma-3-1b-it
+2026-03-16 22:09:19,060 - __main__ - INFO -    - models/gemma-3-4b-it
+2026-03-16 22:09:19,060 - __main__ - INFO -    - models/gemma-3-12b-it
+2026-03-16 22:09:19,060 - __main__ - INFO -    - models/gemma-3-27b-it
+2026-03-16 22:09:19,060 - __main__ - INFO -    - models/gemma-3n-e4b-it
+2026-03-16 22:09:19,060 - __main__ - INFO -    - models/gemma-3n-e2b-it
+2026-03-16 22:09:19,061 - __main__ - INFO -    - models/gemini-flash-latest
+2026-03-16 22:09:19,061 - __main__ - INFO -    - models/gemini-flash-lite-latest
+2026-03-16 22:09:19,061 - __main__ - INFO -    - models/gemini-pro-latest
+2026-03-16 22:09:19,061 - __main__ - INFO -    - models/gemini-2.5-flash-lite
+2026-03-16 22:09:19,061 - __main__ - INFO -    - models/gemini-2.5-flash-image
+2026-03-16 22:09:19,061 - __main__ - INFO -    - models/gemini-2.5-flash-lite-preview-09-2025
+2026-03-16 22:09:19,061 - __main__ - INFO -    - models/gemini-3-pro-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-3-flash-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-3.1-pro-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-3.1-pro-preview-customtools
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-3.1-flash-lite-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-3-pro-image-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/nano-banana-pro-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-3.1-flash-image-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-robotics-er-1.5-preview
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-2.5-computer-use-preview-10-2025
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/deep-research-pro-preview-12-2025
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-embedding-001
+2026-03-16 22:09:19,062 - __main__ - INFO -    - models/gemini-embedding-2-preview
+2026-03-16 22:09:19,063 - __main__ - INFO -    - models/aqa
+2026-03-16 22:09:19,063 - __main__ - INFO -    - models/imagen-4.0-generate-001
+2026-03-16 22:09:19,063 - __main__ - INFO -    - models/imagen-4.0-ultra-generate-001
+2026-03-16 22:09:19,063 - __main__ - INFO -    - models/imagen-4.0-fast-generate-001
+2026-03-16 22:09:19,063 - __main__ - INFO -    - models/veo-2.0-generate-001
+2026-03-16 22:09:19,064 - __main__ - INFO -    - models/veo-3.0-generate-001
+2026-03-16 22:09:19,064 - __main__ - INFO -    - models/veo-3.0-fast-generate-001
+2026-03-16 22:09:19,064 - __main__ - INFO -    - models/veo-3.1-generate-preview
+2026-03-16 22:09:19,064 - __main__ - INFO -    - models/veo-3.1-fast-generate-preview
+2026-03-16 22:09:19,064 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-latest
+2026-03-16 22:09:19,064 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-preview-09-2025
+2026-03-16 22:09:19,064 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-preview-12-2025
+2026-03-16 22:09:19,144 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.14:5000
+2026-03-16 22:09:19,145 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-16 22:09:19,147 - werkzeug - INFO -  * Restarting with stat
+2026-03-16 22:09:20,168 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-16 22:09:20,168 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 22:09:23,344 - __main__ - INFO -    - models/gemini-2.5-flash
+2026-03-16 22:09:23,344 - __main__ - INFO -    - models/gemini-2.5-pro
+2026-03-16 22:09:23,344 - __main__ - INFO -    - models/gemini-2.0-flash
+2026-03-16 22:09:23,344 - __main__ - INFO -    - models/gemini-2.0-flash-001
+2026-03-16 22:09:23,345 - __main__ - INFO -    - models/gemini-2.0-flash-lite-001
+2026-03-16 22:09:23,345 - __main__ - INFO -    - models/gemini-2.0-flash-lite
+2026-03-16 22:09:23,345 - __main__ - INFO -    - models/gemini-2.5-flash-preview-tts
+2026-03-16 22:09:23,345 - __main__ - INFO -    - models/gemini-2.5-pro-preview-tts
+2026-03-16 22:09:23,345 - __main__ - INFO -    - models/gemma-3-1b-it
+2026-03-16 22:09:23,345 - __main__ - INFO -    - models/gemma-3-4b-it
+2026-03-16 22:09:23,345 - __main__ - INFO -    - models/gemma-3-12b-it
+2026-03-16 22:09:23,346 - __main__ - INFO -    - models/gemma-3-27b-it
+2026-03-16 22:09:23,346 - __main__ - INFO -    - models/gemma-3n-e4b-it
+2026-03-16 22:09:23,346 - __main__ - INFO -    - models/gemma-3n-e2b-it
+2026-03-16 22:09:23,346 - __main__ - INFO -    - models/gemini-flash-latest
+2026-03-16 22:09:23,346 - __main__ - INFO -    - models/gemini-flash-lite-latest
+2026-03-16 22:09:23,346 - __main__ - INFO -    - models/gemini-pro-latest
+2026-03-16 22:09:23,347 - __main__ - INFO -    - models/gemini-2.5-flash-lite
+2026-03-16 22:09:23,347 - __main__ - INFO -    - models/gemini-2.5-flash-image
+2026-03-16 22:09:23,347 - __main__ - INFO -    - models/gemini-2.5-flash-lite-preview-09-2025
+2026-03-16 22:09:23,347 - __main__ - INFO -    - models/gemini-3-pro-preview
+2026-03-16 22:09:23,347 - __main__ - INFO -    - models/gemini-3-flash-preview
+2026-03-16 22:09:23,347 - __main__ - INFO -    - models/gemini-3.1-pro-preview
+2026-03-16 22:09:23,347 - __main__ - INFO -    - models/gemini-3.1-pro-preview-customtools
+2026-03-16 22:09:23,348 - __main__ - INFO -    - models/gemini-3.1-flash-lite-preview
+2026-03-16 22:09:23,348 - __main__ - INFO -    - models/gemini-3-pro-image-preview
+2026-03-16 22:09:23,348 - __main__ - INFO -    - models/nano-banana-pro-preview
+2026-03-16 22:09:23,348 - __main__ - INFO -    - models/gemini-3.1-flash-image-preview
+2026-03-16 22:09:23,348 - __main__ - INFO -    - models/gemini-robotics-er-1.5-preview
+2026-03-16 22:09:23,348 - __main__ - INFO -    - models/gemini-2.5-computer-use-preview-10-2025
+2026-03-16 22:09:23,348 - __main__ - INFO -    - models/deep-research-pro-preview-12-2025
+2026-03-16 22:09:23,349 - __main__ - INFO -    - models/gemini-embedding-001
+2026-03-16 22:09:23,349 - __main__ - INFO -    - models/gemini-embedding-2-preview
+2026-03-16 22:09:23,349 - __main__ - INFO -    - models/aqa
+2026-03-16 22:09:23,349 - __main__ - INFO -    - models/imagen-4.0-generate-001
+2026-03-16 22:09:23,349 - __main__ - INFO -    - models/imagen-4.0-ultra-generate-001
+2026-03-16 22:09:23,349 - __main__ - INFO -    - models/imagen-4.0-fast-generate-001
+2026-03-16 22:09:23,349 - __main__ - INFO -    - models/veo-2.0-generate-001
+2026-03-16 22:09:23,350 - __main__ - INFO -    - models/veo-3.0-generate-001
+2026-03-16 22:09:23,350 - __main__ - INFO -    - models/veo-3.0-fast-generate-001
+2026-03-16 22:09:23,350 - __main__ - INFO -    - models/veo-3.1-generate-preview
+2026-03-16 22:09:23,350 - __main__ - INFO -    - models/veo-3.1-fast-generate-preview
+2026-03-16 22:09:23,350 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-latest
+2026-03-16 22:09:23,350 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-preview-09-2025
+2026-03-16 22:09:23,350 - __main__ - INFO -    - models/gemini-2.5-flash-native-audio-preview-12-2025
+2026-03-16 22:09:23,369 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:09:23,377 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-16 22:09:55,798 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:09:55] "GET / HTTP/1.1" 200 -
+2026-03-16 22:09:56,034 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:09:56] "GET /static/style.css HTTP/1.1" 200 -
+2026-03-16 22:09:56,132 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:09:56] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-16 22:09:57,434 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:09:57] "GET /api/status HTTP/1.1" 200 -
+2026-03-16 22:09:57,436 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:09:57] "GET /api/history HTTP/1.1" 200 -
+2026-03-16 22:09:57,807 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:09:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-16 22:10:03,389 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:03] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:10:03,656 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:03] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 22:10:04,997 - playsound - ERROR - 
+    Error 305 for command:
+        open "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_99a5da9469f04a249150b33b00460912.mp3"
+    Cannot specify extra characters after a string enclosed in quotation marks.
+2026-03-16 22:10:04,998 - playsound - ERROR - 
+    Error 263 for command:
+        close "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_99a5da9469f04a249150b33b00460912.mp3"
+    The specified device is not open or is not recognized by MCI.
+2026-03-16 22:10:04,998 - playsound - WARNING - Failed to close the file: "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_99a5da9469f04a249150b33b00460912.mp3"
+2026-03-16 22:10:04,998 - __main__ - ERROR - Online TTS error: 
+    Error 305 for command:
+        open "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_99a5da9469f04a249150b33b00460912.mp3"
+    Cannot specify extra characters after a string enclosed in quotation marks.
+2026-03-16 22:10:15,918 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:15] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:10:16,345 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:16] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 22:10:17,992 - playsound - ERROR - 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_6440caa2fb4f4e359974cd87c44a4ec5.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:17,996 - __main__ - ERROR - Online TTS error: 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_6440caa2fb4f4e359974cd87c44a4ec5.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:17,996 - __main__ - ERROR - Offline TTS error: run loop already started
+2026-03-16 22:10:22,951 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:22] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:10:23,284 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:23] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 22:10:24,348 - playsound - ERROR - 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_29a0fa774f9c402db1a75e16606e3282.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:24,349 - __main__ - ERROR - Online TTS error: 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_29a0fa774f9c402db1a75e16606e3282.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:24,350 - __main__ - ERROR - Offline TTS error: run loop already started
+2026-03-16 22:10:26,999 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:26] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:10:27,329 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:27] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 22:10:27,999 - playsound - ERROR - 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_58be9e298a5c432491bab8f1f7e16a2f.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:28,001 - __main__ - ERROR - Online TTS error: 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_58be9e298a5c432491bab8f1f7e16a2f.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:28,001 - __main__ - ERROR - Offline TTS error: run loop already started
+2026-03-16 22:10:29,887 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:29] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:10:30,216 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:30] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 22:10:30,973 - playsound - ERROR - 
+    Error 305 for command:
+        open "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_017438cd2dad4c32ac297e1b631b6da8.mp3"
+    Cannot specify extra characters after a string enclosed in quotation marks.
+2026-03-16 22:10:30,974 - playsound - ERROR - 
+    Error 305 for command:
+        close "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_017438cd2dad4c32ac297e1b631b6da8.mp3"
+    Cannot specify extra characters after a string enclosed in quotation marks.
+2026-03-16 22:10:30,974 - playsound - WARNING - Failed to close the file: "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_017438cd2dad4c32ac297e1b631b6da8.mp3"
+2026-03-16 22:10:30,974 - __main__ - ERROR - Online TTS error: 
+    Error 305 for command:
+        open "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_017438cd2dad4c32ac297e1b631b6da8.mp3"
+    Cannot specify extra characters after a string enclosed in quotation marks.
+2026-03-16 22:10:30,974 - __main__ - ERROR - Offline TTS error: run loop already started
+2026-03-16 22:10:54,041 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:54] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:10:54,362 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:10:54] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 22:10:55,489 - playsound - ERROR - 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_956cd9bdde7a47afa594cc650f819df5.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:55,491 - __main__ - ERROR - Online TTS error: 
+    Error 259 for command:
+        play "C:\Users\Suyal\AppData\Local\Temp\voice_chatbot\speech_956cd9bdde7a47afa594cc650f819df5.mp3" wait
+    The driver cannot recognize the specified command parameter.
+2026-03-16 22:10:55,491 - __main__ - ERROR - Offline TTS error: run loop already started
+2026-03-16 22:18:40,000 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Suyal\\OneDrive\\Desktop\\voice_chatbot\\app.py', reloading
+2026-03-16 22:18:42,729 - werkzeug - INFO -  * Restarting with stat
+2026-03-16 22:18:44,114 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-16 22:18:44,114 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 22:18:44,395 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-16 22:18:44,396 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-16 22:18:46,155 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-16 22:18:46,977 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:18:46,993 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-16 22:19:19,355 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-16 22:19:19,355 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 22:19:19,523 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-16 22:19:19,524 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-16 22:19:21,225 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-16 22:19:21,264 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.14:5000
+2026-03-16 22:19:21,265 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-16 22:19:21,268 - werkzeug - INFO -  * Restarting with stat
+2026-03-16 22:19:22,200 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-16 22:19:22,201 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-16 22:19:22,384 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-16 22:19:22,385 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-16 22:19:24,029 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-16 22:19:24,048 - werkzeug - WARNING -  * Debugger is active!
+2026-03-16 22:19:24,052 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-16 22:19:38,185 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:19:38] "GET / HTTP/1.1" 200 -
+2026-03-16 22:19:38,353 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:19:38] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-16 22:19:38,448 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:19:38] "GET /static/style.css HTTP/1.1" 200 -
+2026-03-16 22:19:38,771 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:19:38] "GET /api/status HTTP/1.1" 200 -
+2026-03-16 22:19:38,773 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:19:38] "GET /api/history HTTP/1.1" 200 -
+2026-03-16 22:20:32,966 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:20:32] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:20:47,271 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:20:47] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:20:55,675 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:20:55] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:21:20,042 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:21:20] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:26:45,285 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:26:45] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:27:47,861 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:47] "GET / HTTP/1.1" 200 -
+2026-03-16 22:27:48,027 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:27:48,120 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-16 22:27:48,569 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:48] "GET /api/status HTTP/1.1" 200 -
+2026-03-16 22:27:48,578 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:48] "GET /api/history HTTP/1.1" 200 -
+2026-03-16 22:27:55,575 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:27:55] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:28:30,336 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:30] "POST /api/chat HTTP/1.1" 200 -
+2026-03-16 22:28:30,353 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:28:30] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-16 22:31:30,687 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:31:30] "GET / HTTP/1.1" 200 -
+2026-03-16 22:31:30,740 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:31:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-16 22:31:30,757 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:31:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-16 22:31:31,070 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:31:31] "GET /api/status HTTP/1.1" 200 -
+2026-03-16 22:31:31,072 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2026 22:31:31] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:12:26,570 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:12:26,571 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:12:26,992 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:12:26,992 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:12:28,536 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:12:28,606 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2026-03-17 14:12:28,606 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-17 14:12:28,614 - werkzeug - INFO -  * Restarting with stat
+2026-03-17 14:12:29,638 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:12:29,639 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:12:29,801 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:12:29,801 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:12:32,962 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:12:32,985 - werkzeug - WARNING -  * Debugger is active!
+2026-03-17 14:12:33,002 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-17 14:12:41,226 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:41] "GET / HTTP/1.1" 200 -
+2026-03-17 14:12:41,502 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 14:12:41,593 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 14:12:41,919 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:41] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 14:12:41,920 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:41] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:12:41,968 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-17 14:12:46,771 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:46] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:12:47,089 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:12:47] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:13:00,530 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:13:00] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:13:00,853 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:13:00] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:13:36,291 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:13:36] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:13:36,610 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:13:36] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:13:50,879 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:13:50] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:13:51,200 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:13:51] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:16:37,271 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:16:37] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:16:37,345 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:16:37] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:17:41,957 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:17:41] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:17:41,965 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:17:41] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:22:30,434 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:22:30,434 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:22:30,822 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:22:30,823 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:22:32,266 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:22:32,322 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2026-03-17 14:22:32,323 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-17 14:22:32,327 - werkzeug - INFO -  * Restarting with stat
+2026-03-17 14:22:33,298 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:22:33,299 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:22:33,464 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:22:33,464 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:22:34,847 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:22:34,870 - werkzeug - WARNING -  * Debugger is active!
+2026-03-17 14:22:34,884 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-17 14:22:42,043 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:42] "GET / HTTP/1.1" 200 -
+2026-03-17 14:22:42,489 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 14:22:42,522 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 14:22:43,171 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:43] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 14:22:43,248 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:43] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:22:49,658 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:49] "GET / HTTP/1.1" 200 -
+2026-03-17 14:22:49,964 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 14:22:50,041 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 14:22:50,351 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:50] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 14:22:50,352 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:22:50] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:23:10,000 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:23:10] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:23:10,323 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:23:10] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:27:25,535 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:27:25,535 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:27:25,719 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:27:25,719 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:27:27,588 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:27:27,622 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2026-03-17 14:27:27,622 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-17 14:27:27,624 - werkzeug - INFO -  * Restarting with stat
+2026-03-17 14:27:28,481 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:27:28,481 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:27:28,634 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:27:28,634 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:27:31,025 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:27:31,051 - werkzeug - WARNING -  * Debugger is active!
+2026-03-17 14:27:31,082 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-17 14:27:33,540 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:27:33] "GET / HTTP/1.1" 200 -
+2026-03-17 14:27:33,836 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:27:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 14:27:33,867 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:27:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 14:27:34,288 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:27:34] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 14:27:34,292 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:27:34] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:28:06,468 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:28:06] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:28:06,799 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:28:06] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:28:37,395 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:28:37] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:28:37,716 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:28:37] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:33:00,527 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:33:00,530 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:33:00,802 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:33:00,803 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:33:02,091 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:33:02,129 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2026-03-17 14:33:02,130 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-17 14:33:02,133 - werkzeug - INFO -  * Restarting with stat
+2026-03-17 14:33:03,149 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 14:33:03,149 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 14:33:03,406 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 14:33:03,406 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 14:33:05,839 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 14:33:05,857 - werkzeug - WARNING -  * Debugger is active!
+2026-03-17 14:33:05,863 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-17 14:34:18,037 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:18] "GET / HTTP/1.1" 200 -
+2026-03-17 14:34:18,121 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 14:34:18,297 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 14:34:18,622 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:18] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 14:34:18,624 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:18] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:34:18,625 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-17 14:34:29,603 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:29] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:34:29,933 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:34:29] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:35:39,807 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:35:39] "GET / HTTP/1.1" 200 -
+2026-03-17 14:35:39,843 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:35:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 14:35:40,072 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:35:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 14:35:40,382 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:35:40] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 14:35:40,383 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:35:40] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:35:54,962 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:35:54] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:35:55,280 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:35:55] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:37:08,122 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:37:08] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:37:08,142 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:37:08] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:37:21,303 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:37:21] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:37:21,311 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:37:21] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 14:37:52,776 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:37:52] "POST /api/settings HTTP/1.1" 200 -
+2026-03-17 14:39:52,654 - werkzeug - INFO - 192.168.1.4 - - [17/Mar/2026 14:39:52] "GET / HTTP/1.1" 200 -
+2026-03-17 14:39:52,863 - werkzeug - INFO - 192.168.1.4 - - [17/Mar/2026 14:39:52] "GET /static/style.css HTTP/1.1" 200 -
+2026-03-17 14:39:52,864 - werkzeug - INFO - 192.168.1.4 - - [17/Mar/2026 14:39:52] "GET /static/script.js HTTP/1.1" 200 -
+2026-03-17 14:39:53,195 - werkzeug - INFO - 192.168.1.4 - - [17/Mar/2026 14:39:53] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 14:39:53,199 - werkzeug - INFO - 192.168.1.4 - - [17/Mar/2026 14:39:53] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 14:39:53,449 - werkzeug - INFO - 192.168.1.4 - - [17/Mar/2026 14:39:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-17 14:40:24,197 - werkzeug - INFO - 192.168.1.4 - - [17/Mar/2026 14:40:24] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:46:05,805 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:46:05] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 14:46:05,829 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 14:46:05] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 15:29:54,614 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 15:29:54,615 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 15:29:54,907 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 15:29:54,907 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 15:29:56,777 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 15:29:56,822 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.177.13:5000
+2026-03-17 15:29:56,823 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-17 15:29:56,825 - werkzeug - INFO -  * Restarting with stat
+2026-03-17 15:29:57,712 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 15:29:57,712 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 15:29:57,855 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 15:29:57,856 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 15:29:59,677 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 15:29:59,699 - werkzeug - WARNING -  * Debugger is active!
+2026-03-17 15:29:59,706 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-17 15:32:59,337 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:32:59] "GET / HTTP/1.1" 200 -
+2026-03-17 15:32:59,463 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:32:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 15:32:59,589 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:32:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 15:32:59,912 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:32:59] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 15:32:59,914 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:32:59] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 15:33:04,783 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:33:04] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 15:33:05,095 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:33:05] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 15:34:06,857 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:34:06] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 15:34:07,178 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:34:07] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 15:34:34,527 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:34:34] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 15:34:34,845 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 15:34:34] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 16:05:30,545 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 16:05:30,546 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 16:05:30,823 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 16:05:30,823 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 16:05:32,545 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 16:05:32,600 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+2026-03-17 16:05:32,600 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-17 16:05:32,604 - werkzeug - INFO -  * Restarting with stat
+2026-03-17 16:05:33,648 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 16:05:33,648 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 16:05:33,805 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 16:05:33,805 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 16:05:34,648 - __main__ - INFO - Trying model: gemini-2.5-pro
+2026-03-17 16:05:34,773 - __main__ - INFO - Trying model: gemini-2.0-flash
+2026-03-17 16:05:35,180 - __main__ - INFO - Trying model: gemini-pro-latest
+2026-03-17 16:05:35,316 - __main__ - INFO - Trying model: gemini-flash-latest
+2026-03-17 16:05:36,952 - __main__ - INFO - Successfully connected to Gemini model: gemini-flash-latest
+2026-03-17 16:05:36,977 - werkzeug - WARNING -  * Debugger is active!
+2026-03-17 16:05:36,986 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-17 16:06:43,929 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:43] "GET / HTTP/1.1" 200 -
+2026-03-17 16:06:44,326 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 16:06:44,329 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 16:06:45,084 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:45] "GET / HTTP/1.1" 200 -
+2026-03-17 16:06:45,091 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:45] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 16:06:45,096 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:45] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 16:06:45,335 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 16:06:45,491 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 16:06:45,525 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:45] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 16:06:45,844 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:06:45] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 16:11:06,741 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:11:06] "GET / HTTP/1.1" 200 -
+2026-03-17 16:11:06,868 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:11:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 16:11:06,958 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:11:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 16:11:07,503 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:11:07] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 16:11:07,505 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:11:07] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 16:11:47,771 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:11:47] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 16:11:48,095 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:11:48] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 16:12:23,272 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:12:23] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 16:12:23,601 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:12:23] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 16:12:54,354 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:12:54] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 16:12:54,670 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 16:12:54] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:35:38,355 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 21:35:38,356 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 21:35:38,848 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 21:35:38,848 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 21:35:40,251 - __main__ - INFO - Successfully connected to Gemini model: gemini-2.5-flash
+2026-03-17 21:35:41,205 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2026-03-17 21:35:41,205 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-03-17 21:35:41,208 - werkzeug - INFO -  * Restarting with stat
+2026-03-17 21:35:42,228 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Suyal\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-17 21:35:42,228 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Suyal\AppData\Local\Programs\Python\Python310\lib\site-packages\comtypes\gen'
+2026-03-17 21:35:42,383 - __main__ - INFO - TTS Engine initialized successfully
+2026-03-17 21:35:42,383 - __main__ - INFO - Trying model: gemini-2.5-flash
+2026-03-17 21:35:43,211 - __main__ - INFO - Trying model: gemini-2.5-pro
+2026-03-17 21:35:43,351 - __main__ - INFO - Trying model: gemini-2.0-flash
+2026-03-17 21:35:43,674 - __main__ - INFO - Trying model: gemini-pro-latest
+2026-03-17 21:35:43,851 - __main__ - INFO - Trying model: gemini-flash-latest
+2026-03-17 21:35:44,941 - __main__ - INFO - Successfully connected to Gemini model: gemini-flash-latest
+2026-03-17 21:35:44,961 - werkzeug - WARNING -  * Debugger is active!
+2026-03-17 21:35:44,970 - werkzeug - INFO -  * Debugger PIN: 191-391-130
+2026-03-17 21:35:53,174 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:35:53] "GET / HTTP/1.1" 200 -
+2026-03-17 21:35:53,982 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:35:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 21:35:54,037 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:35:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 21:35:54,375 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:35:54] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 21:35:54,378 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:35:54] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 21:35:54,627 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:35:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-17 21:36:26,331 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:36:26] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:36:26,348 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:36:26] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:37:04,330 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:37:04] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:37:04,346 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:37:04] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:38:38,128 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:38:38] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:38:38,137 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:38:38] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:41:59,911 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:41:59] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:41:59,929 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:41:59] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:42:11,889 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:42:11] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:42:11,904 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:42:11] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:43:05,342 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:43:05] "GET / HTTP/1.1" 200 -
+2026-03-17 21:43:05,746 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:43:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-03-17 21:43:05,786 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:43:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2026-03-17 21:43:06,127 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:43:06] "GET /api/status HTTP/1.1" 200 -
+2026-03-17 21:43:06,131 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:43:06] "GET /api/history HTTP/1.1" 200 -
+2026-03-17 21:43:50,644 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:43:50] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:43:50,966 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:43:50] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:44:19,944 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:44:19] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:44:20,265 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:44:20] "POST /api/voice-output HTTP/1.1" 200 -
+2026-03-17 21:44:43,267 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:44:43] "POST /api/chat HTTP/1.1" 200 -
+2026-03-17 21:44:43,590 - werkzeug - INFO - 127.0.0.1 - - [17/Mar/2026 21:44:43] "POST /api/voice-output HTTP/1.1" 200 -

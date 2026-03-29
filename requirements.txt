@@ -1,0 +1,22 @@
+# Core Framework
+flask==2.3.3
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+# Voice Recognition
+SpeechRecognition==3.10.0
+PyAudio==0.2.13
+
+# Text-to-Speech
+pyttsx3==2.90
+gTTS==2.4.0
+
+# AI Libraries
+google-generativeai==0.3.2
+
+# Additional Features
+requests==2.31.0
+pywin32==306
+
+# Utilities
+pocketsphinx==5.0.1
