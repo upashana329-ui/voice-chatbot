@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 Voice Assistant Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <span class="robot">🤖</span>
+                <h1>Voice Assistant Chatbot </h1>
+            </div>
+            <div class="status">
+                <span class="status-indicator" id="statusIndicator"></span>
+                <span id="statusText">Ready</span>
+            </div>
+        </header>
+
+        <!-- Main Chat Area -->
+        <div class="chat-container">
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chatMessages">
+                <div class="message assistant">
+                    <div class="avatar">🤖</div>
+                    <div class="message-content">
+                        <p>Hello! I'm your voice assistant. You can type or click the microphone button to speak with me!</p>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <button class="mic-btn" id="micBtn" title="Click to speak">
+                    <span class="mic-icon">🎤</span>
+                </button>
+                
+                <input type="text" 
+                       id="userInput" 
+                       placeholder="Type your message here..." 
+                       autocomplete="off">
+                
+                <button class="send-btn" id="sendBtn" title="Send message">
+                    <span>📤</span>
+                </button>
+                
+                <button class="voice-btn" id="voiceBtn" title="Enable/Disable voice output">
+                    <span>🔊</span>
+                </button>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls">
+                <button class="control-btn" id="clearBtn">
+                    <span>🗑️</span> Clear Chat
+                </button>
+                <button class="control-btn" id="settingsBtn">
+                    <span>⚙️</span> Settings
+                </button>
+                <div class="feature-badges">
+                    <span class="feature-badge" id="weatherBadge">🌤️</span>
+                    <span class="feature-badge" id="newsBadge">📰</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Panel -->
+        <div class="settings-panel" id="settingsPanel">
+            <h3>Settings</h3>
+            
+            <div class="setting-item">
+                <label>Voice Output Mode:</label>
+                <select id="voiceMode">
+                    <option value="online">Online (Better Quality)</option>
+                    <option value="offline">Offline (Faster)</option>
+                </select>
+            </div>
+            
+            <div class="setting-item">
+                <label>Voice Speed:</label>
+                <input type="range" id="voiceSpeed" min="100" max="250" value="175">
+                <span id="speedValue">175</span>
+            </div>
+            
+            <div class="setting-item">
+                <label>AI Provider:</label>
+                <span id="aiProvider">Loading...</span>
+            </div>
+            
+            <div class="setting-item">
+                <label>Model:</label>
+                <span id="modelName">Loading...</span>
+            </div>
+            
+            <div class="setting-item">
+                <label>System Status:</label>
+                <span id="systemStatus">Checking...</span>
+            </div>
+            
+            <div class="setting-item">
+                <label>Features:</label>
+                <div id="featuresList"></div>
+            </div>
+            
+            <button class="close-settings" id="closeSettings">Close</button>
+        </div>
+    </div>
+
+    <!-- Voice Wave Animation -->
+    <div class="voice-wave" id="voiceWave">
+        <div class="wave-bar"></div>
+        <div class="wave-bar"></div>
+        <div class="wave-bar"></div>
+        <div class="wave-bar"></div>
+        <div class="wave-bar"></div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
