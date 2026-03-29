@@ -18,7 +18,6 @@ if sys.platform == 'win32':
 
 # Third-party imports
 import speech_recognition as sr
-import pyttsx3
 from gtts import gTTS
 import requests
 from flask import Flask, render_template, request, jsonify, session
